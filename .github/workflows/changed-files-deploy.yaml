@@ -2,7 +2,7 @@ name: deployment-production
 
 on:
   pull_request:
-    paths: [map-styles/**, scripts/**, .github/workflows/main-staging.yaml]
+    branches: ['main']
   workflow_dispatch:
 
 env: 
